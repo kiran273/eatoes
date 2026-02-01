@@ -1,10 +1,12 @@
 {
-  "name": "server",
+  "name": "eatoes-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Eatoes Restaurant Admin Dashboard - Backend API",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node scripts/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +17,8 @@
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
