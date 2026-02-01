@@ -23,8 +23,8 @@ export function Toast({ message, type = 'success', onClose, duration = 3000 }) {
         }`}
       >
         {isSuccess
-          ? <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-          : <XCircle    className="w-5 h-5 text-red-500   flex-shrink-0" />
+          ? <CheckCircle className="w-5 h-5 text-green-500 shrink-0" />
+          : <XCircle    className="w-5 h-5 text-red-500   shrink-0" />
         }
         <p className="text-sm font-medium flex-1">{message}</p>
         <button onClick={onClose} className="text-gray-400 hover:text-gray-600 transition-colors">

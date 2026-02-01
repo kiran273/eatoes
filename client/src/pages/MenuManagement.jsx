@@ -109,7 +109,7 @@ export default function MenuManagement() {
           </div>
           <button
             onClick={() => { setEditItem(null); setModalOpen(true) }}
-            className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors flex-shrink-0"
+            className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors shrink-0"
           >
             <Plus className="w-4 h-4" /> Add Item
           </button>
